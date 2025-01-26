@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+.about-us-section {
+    position: relative;
+    background-image: url('ab-banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+  .story-text h4{
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100px;
+
+
+  }
+
+  .str-dsc-info{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+
+  }
+  .ab-cntr-cn {
+    text-align: center;
+    max-width: 800px;
+    color: white;
+  }
+  
+  .ab-bn-hd {
+
+font-family: "IBM Plex Sans", sans-serif;
+font-size: 100px;
+font-weight: 700;
+text-align: center;
+
+  }
+  
+  .ab-bn-dsc {
+    font-family: "IBM Plex Sans", sans-serif;
+font-size: 30px;
+font-weight: 400;;
+text-align: left;
+
+  }
+  
+
+  
+
+/* section 2 css */
+
+.our-story-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.our-story-section .container{
+    display: flex;
+    padding: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.story-text {
+    max-width: 60%;
+}
+
+
+.str-dsc{
+
+    gap: 100px;
+    display: grid;
+}
+.story-images {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.story-images img {
+    margin-bottom: -2rem;
+    width: 100%;
+    max-width: 200px;
+    
+}
+
+
+  /* section 3 css */
+
+
+  
+  .mission-section {
+   
+    background-color: #FDE6BA;
+   
+}
+
+.mission-section .container{
+
+    padding: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+  .mission-head{
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100px;
+
+  }
+
+  
+
+  .mission-desc{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+  }
+
+  .ms-mn-container{
+  
+    padding: 5rem 0 5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .ms-image-wrapper {
+    position: relative;
+    width: 300px; 
+    height: 300px; 
+  }
+ 
+.ms-image {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+   
+  }
+
+
+.ms-ovl-img-1 {
+    transform: rotate(359deg);
+    top: 15px;
+    left: 116px;
+    z-index: 3;
+  }
+  
+  .ms-ovl-img-2 {
+    transform: rotate(5deg);
+    top: 40px;
+    left: 80px;
+    z-index: 2;
+  }
+  
+  .ms-ovl-img-3 {
+    transform: rotate(358deg);
+    top: 80px;
+    left: 130px;
+    z-index: 1;
+  }
+  
+  
+  .ms-image-container {
+    position: relative;
+   width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .image-container img{
+    height: 280px;
+    width: 280px;
+  }
+  
+  .content-container {
+    width: 50%;    
+  }
+
+  .content-cont-head h2{
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: 700;
+   
+
+
+  }
+  
+  .content-cont-sub-head h3{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 65.37px;
+   
+  }
+  
+  .content-cont-desc p{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+  }
+
+
+/* section 4 */
+
+
+  
+.support-section {
+   
+    background-color: #fff;
+  }
+
+  .support-section .container{
+   margin: 0 auto;
+    padding: 50px;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  .s-s-text-cont{
+    width: 50%;
+    padding-right: 50px;
+    gap: 30px;
+    display: grid;
+
+  }
+  
+  .s-s-t-h h2{
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .s-s-t-dsc p{
+
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+  }
+
+
+  .s-s-grid-cl{
+    width: 45%;
+    gap: 20px;
+    display: grid;
+
+  }
+  .s-s-image-grid {
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .s-s-grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+  /* section 5 */
+
+  .community-section {
+    background-color: #FDE6BA;
+    text-align: center;
+}
+
+.community-section .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.community-section h2 {
+    line-height: 100px;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.community-section p {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    color: #000000;
+
+}
